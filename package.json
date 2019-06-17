@@ -1,0 +1,60 @@
+{
+  "name": "react-launch",
+  "version": "0.0.1",
+  "description": "Quick react app",
+  "main": "index.js",
+  "author": "Blaine Degannes <blaine_degannes@intuit.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev:start": "NODE_ENV=development webpack-dev-server --config webpack/webpack.development.js",
+    "prod:start": "NODE_ENV=development webpack --config webpack/webpack.production.js"
+  },
+  "bin": {
+    "react-launch": "bin/rla.js"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "@hot-loader/react-dom": "^16.8.6",
+    "babel-jest": "^24.8.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "enzyme-to-json": "^3.3.5",
+    "fs-extra": "^8.0.1",
+    "jest": "^24.8.0",
+    "lodash": "^4.17.11",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-hot-loader": "^4.11.1",
+    "react-redux": "^7.1.0",
+    "react-router": "^5.0.1",
+    "react-test-renderer": "^16.8.6",
+    "styled-components": "^4.3.1",
+    "webpack": "^4.34.0",
+    "webpack-bundle-analyzer": "^3.3.2",
+    "webpack-cli": "^3.3.4",
+    "webpack-dev-server": "^3.7.1",
+    "webpack-merge": "^4.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.3.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.3.1",
+    "@babel/plugin-transform-arrow-functions": "^7.2.0",
+    "@babel/plugin-transform-async-to-generator": "^7.2.0",
+    "@babel/preset-env": "^7.4.5",
+    "babel-loader": "^8.0.6",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^5.0.0",
+    "eslint-import-resolver-webpack": "^0.11.1",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.13.0",
+    "html-webpack-plugin": "^4.0.0-beta.5",
+    "prettier": "^1.18.2"
+  }
+}
