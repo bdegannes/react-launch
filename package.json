@@ -1,11 +1,10 @@
 {
-  "name": "react-launch",
+  "name": "@bdegannes/react-launch",
   "version": "0.0.1",
   "description": "Quick react app",
   "main": "index.js",
   "author": "Blaine Degannes <blaine_degannes@intuit.com>",
   "license": "MIT",
-  "private": true,
   "scripts": {
     "dev:start": "NODE_ENV=development webpack-dev-server --config webpack/webpack.development.js",
     "prod:start": "NODE_ENV=development webpack --config webpack/webpack.production.js"
